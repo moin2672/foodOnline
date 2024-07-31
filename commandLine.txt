@@ -1,0 +1,12 @@
+PS C:\Users\Moiz\Downloads\Projects\foodOnline> py -3 -m venv .venv
+PS C:\Users\Moiz\Downloads\Projects\foodOnline> .venv/scripts/activate
+(.venv) PS C:\Users\Moiz\Downloads\Projects\foodOnline> pip freeze
+(.venv) PS C:\Users\Moiz\Downloads\Projects\foodOnline> 
+(.venv) PS C:\Users\Moiz\Downloads\Projects\foodOnline> django-admin startproject foodOnline_main .
+(.venv) PS C:\Users\Moiz\Downloads\Projects\foodOnline> pip freeze
+asgiref==3.8.1
+Django==3.2.5
+pytz==2024.1
+sqlparse==0.5.1
+typing-extensions==4.12.2
+(.venv) PS C:\Users\Moiz\Downloads\Projects\foodOnline> python manage.py runserver
